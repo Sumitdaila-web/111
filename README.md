@@ -119,7 +119,7 @@
       animation-delay: 1s;
     }
 
-    @keyframes floatUp {
+    @keyframes flotup{
       0% {
         transform: translateY(0) scale(1);
         opacity: 0.9;
@@ -128,7 +128,7 @@
         transform: translateY(-40px) scale(1.05);
         opacity: 1;
       }
-      100% {
+      80% {
         transform: translateY(-400px) scale(1);
         opacity: 0;
       }
@@ -179,9 +179,9 @@
 </head>
 <body>
   <div class="birthday-card">
-    <h1>Happy Birthday, <span contenteditable="true" style="color:#2196f3; border-bottom: 1px dashed #2196f3; cursor:text;">[Name]</span>!</h1>
-    <p>Wishing you a day filled with joy, laughter, and everything you wish for.</p>
-    <p class="signature">- <span contenteditable="true" style="color:#e91e63; border-bottom: 1px dashed #e91e63; cursor:text;">[Your Name]</span></p>
+    <h1>Happy Friendship Day Bro <span contenteditable="true" style="color:#2196f3; border-bottom: 1px dashed #2196f3; cursor:text;"></span>!</h1>
+    <p>A true friend is one who walks in when the rest of the world walks out.</p>
+    <p class="signature">- <span contenteditable="true" style="color:#e91e63; border-bottom: 1px dashed #e91e63; cursor:text;"></span></p>
     <div class="balloons">
       <div class="balloon"></div>
       <div class="balloon"></div>
@@ -220,3 +220,4 @@
   </script>
 </body>
 </html>
+
